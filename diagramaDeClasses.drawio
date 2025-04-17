@@ -1,9 +1,76 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="Página-1" id="KDS0xW0gvQHXMWHqNDxD">
-    <mxGraphModel>
+    <mxGraphModel dx="1327" dy="607" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Uwf0c9YL4ycJaXKZoD-7-5" value="Produtos 1: Produto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="438" y="281" width="160" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwf0c9YL4ycJaXKZoD-7-6" value="+ nome: Pão&lt;div&gt;+ preco: 666,00&lt;/div&gt;&lt;div&gt;+ validade: 11/09/2001&lt;/div&gt;&lt;div&gt;+ tipo: Massas&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Uwf0c9YL4ycJaXKZoD-7-5">
+          <mxGeometry y="26" width="160" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwf0c9YL4ycJaXKZoD-7-9" value="Padaria 1: Padaria" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="81" y="270" width="228" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwf0c9YL4ycJaXKZoD-7-10" value="+ nome: Pão do Márcinho&lt;div&gt;+ endereco: Rua: Dr. Palmeiras Sem mundial&lt;/div&gt;&lt;div&gt;+ cnpj: 111110001-0001&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Uwf0c9YL4ycJaXKZoD-7-9">
+          <mxGeometry y="26" width="228" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwf0c9YL4ycJaXKZoD-7-13" value="Funcionario 1: Funcionario" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-227" y="329" width="204" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwf0c9YL4ycJaXKZoD-7-14" value="+ nome: Neymar Junior&lt;div&gt;+ cargo: Padeiro&lt;/div&gt;&lt;div&gt;- salario: 1600,00&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Uwf0c9YL4ycJaXKZoD-7-13">
+          <mxGeometry y="26" width="204" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwf0c9YL4ycJaXKZoD-7-17" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.843;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=diamond;endFill=1;entryPerimeter=0;" edge="1" parent="1" source="Uwf0c9YL4ycJaXKZoD-7-18" target="Uwf0c9YL4ycJaXKZoD-7-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="438" y="409.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwf0c9YL4ycJaXKZoD-7-18" value="Pedido 24: Pedido" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-112" y="557" width="182" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwf0c9YL4ycJaXKZoD-7-19" value="+ numero: 24&lt;div&gt;+ data: 15/05/2002&lt;/div&gt;&lt;div&gt;+ totalPedidos: 51&lt;/div&gt;&lt;div&gt;+ valorPedido: 69,00&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Uwf0c9YL4ycJaXKZoD-7-18">
+          <mxGeometry y="26" width="182" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwf0c9YL4ycJaXKZoD-7-22" value="Cliente 1: Cliente" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="198" y="617" width="195" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwf0c9YL4ycJaXKZoD-7-23" value="+ nome: Craque Neto&lt;div&gt;+ cpf: 333.333.333-12&lt;/div&gt;&lt;div&gt;+telefone: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Uwf0c9YL4ycJaXKZoD-7-22">
+          <mxGeometry y="26" width="195" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwf0c9YL4ycJaXKZoD-7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=open;endFill=0;startArrow=open;startFill=0;" edge="1" parent="1" source="Uwf0c9YL4ycJaXKZoD-7-10" target="Uwf0c9YL4ycJaXKZoD-7-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="37" y="335" />
+              <mxPoint x="37" y="293" />
+              <mxPoint x="-125" y="293" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwf0c9YL4ycJaXKZoD-7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=diamond;endFill=0;" edge="1" parent="1" source="Uwf0c9YL4ycJaXKZoD-7-10" target="Uwf0c9YL4ycJaXKZoD-7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwf0c9YL4ycJaXKZoD-7-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=open;endFill=0;edgeStyle=orthogonalEdgeStyle;startArrow=open;startFill=0;" edge="1" parent="1" source="Uwf0c9YL4ycJaXKZoD-7-19" target="Uwf0c9YL4ycJaXKZoD-7-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwf0c9YL4ycJaXKZoD-7-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.463;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;endArrow=open;endFill=0;" edge="1" parent="1" source="Uwf0c9YL4ycJaXKZoD-7-18" target="Uwf0c9YL4ycJaXKZoD-7-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-141.52400000000011" y="484.86799999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwf0c9YL4ycJaXKZoD-7-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0.488;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;startArrow=open;" edge="1" parent="1" source="Uwf0c9YL4ycJaXKZoD-7-18" target="Uwf0c9YL4ycJaXKZoD-7-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="377" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-21" y="511" />
+              <mxPoint x="25" y="511" />
+              <mxPoint x="25" y="411" />
+              <mxPoint x="192" y="411" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
